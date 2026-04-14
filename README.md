@@ -180,5 +180,168 @@ Uses:
 * Minerals: Calcium, Iron, Magnesium, Potassium, Zinc
 * Derived: Nutrition Density, Health Score, Fat Ratios
 
+
 ---
 
+# 🚀 AFTER DOWNLOADING ZIP FILE (What to Do)
+
+## 1️⃣ Extract ZIP
+
+* Right click ZIP file
+* Click **Extract All**
+* Open extracted folder
+
+---
+
+## 2️⃣ Open CMD in project folder
+
+* Open folder
+* Click address bar
+* Type:
+
+```bash
+cmd
+```
+
+---
+
+## 3️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Run project
+
+```bash
+python app.py
+```
+
+👉 Now open:
+
+```
+http://localhost:5000
+```
+
+---
+
+# 🌐 OPTIONAL: PUBLIC LINK (ngrok)
+
+## ❓ What is ngrok?
+
+👉 ngrok is used to:
+
+* make your local project public on internet
+* share your Flask app with others
+* generate live link like:
+
+```
+https://xxxx.ngrok-free.app
+```
+
+---
+
+# ⚠️ IMPORTANT (if ngrok NOT installed)
+
+If you type:
+
+```bash
+ngrok http 5000
+```
+
+and get error:
+
+```
+'ngrok' is not recognized
+```
+
+👉 It means ngrok is NOT installed or not setup.
+
+---
+
+# 🛠️ HOW TO FIX ngrok (FIRST TIME ONLY)
+
+## 1️⃣ Download ngrok
+
+Go to:
+
+```
+https://ngrok.com/download
+```
+
+Download Windows version (ZIP)
+
+---
+
+## 2️⃣ Extract ZIP
+
+You will get:
+
+```
+ngrok.exe
+```
+
+---
+
+## 3️⃣ Open CMD in that folder
+
+Click address bar → type:
+
+```bash
+cmd
+```
+
+---
+
+## 4️⃣ Login (ONE TIME ONLY)
+
+```bash
+ngrok config add-authtoken YOUR_TOKEN
+```
+
+(Get token from ngrok dashboard)
+
+---
+
+## 5️⃣ Run ngrok
+
+First run your app:
+
+```bash
+python app.py
+```
+
+Then in second CMD:
+
+```bash
+ngrok http 5000
+```
+
+---
+
+# 🚀 RESULT
+
+You will see:
+
+```
+Forwarding https://xxxx.ngrok-free.app
+```
+
+👉 Open this link anywhere 🌍
+
+---
+
+# 📌 FINAL SHORT SUMMARY
+
+✔ Extract ZIP
+✔ pip install -r requirements.txt
+✔ python app.py
+✔ open localhost:5000
+
+🌐 Optional:
+✔ install ngrok
+✔ ngrok http 5000 → get public link
+
+---
