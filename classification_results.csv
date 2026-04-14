@@ -1,0 +1,6 @@
+Model,Accuracy,CV Accuracy
+Gradient Boosting,0.9228,0.9081
+Random Forest,0.9165,0.882
+Decision Tree,0.9102,0.8622
+Logistic Regression,0.8184,0.8027
+K-Nearest Neighbours,0.7704,0.7714
